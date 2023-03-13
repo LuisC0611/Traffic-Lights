@@ -22,11 +22,14 @@
     height: 500px;
     margin: auto;
     border-radius: 8%;
-    margin-top: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
+.stem{   margin: auto;
+    width: 35px;
+    height: 200px;
+    background-color: black;
+}
 .is-selected{
     box-Shadow: 1px 1px 40px 10px rgb(164, 199, 199);
 }

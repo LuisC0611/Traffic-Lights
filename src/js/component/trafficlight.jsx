@@ -25,7 +25,7 @@ const TrafficLight = () => {
 
   return (
     <>
-      <div>selected: {selected}</div>
+      <div className="stem"></div>
       <div className="traffic-light-BG d-flex flex-column">
         {colors.map((item, index) => (
           <Light
@@ -37,6 +37,7 @@ const TrafficLight = () => {
           />
         ))}
       </div>
+      <div>selected: {selected}</div>
       <CycleButton handleClick={cycleHandler} name="Cycle Light" />
     </>
   );
